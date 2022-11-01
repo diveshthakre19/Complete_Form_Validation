@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1B98F5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+}
+
+.header{
+    padding: 1rem ;
+    background-color: aliceblue;
+}
+
+#form{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: .8rem;
+    margin: .5rem 0 ;
+}
+small{
+    /* display: none; */
+}
+
+.form button {
+	background-color: #3DBE29;
+	border: 2px solid #3DBE29;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
